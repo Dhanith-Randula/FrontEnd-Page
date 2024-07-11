@@ -1,0 +1,61 @@
+.background{
+    background-image:var(--body-background-image);
+  
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfiled{
+    color: var(--text-textfiled);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: play;
+
+    
+}
+
+.textfiled2{
+    color: var(--text-textfiled2);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@font-face{
+  font-family: play;
+  src: url('PlaywriteCL-VariableFont_wght.ttf');
+}
+
+.button{
+  background: linear-gradient(to top, #f53737, #8a32bd);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button:hover{
+  background: linear-gradient(to top, #8a32bd, #f53737);
+}
+

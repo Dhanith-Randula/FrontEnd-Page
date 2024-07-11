@@ -1,0 +1,37 @@
+:root {
+  --body-background-image: url('/image/backgroungimg.jpg');
+  
+  --text-textfiled: #000000;
+  --text-textfiled2: #000000;
+  --link-menu-links_a: #000000;
+  --text-textfiledM: #000000;
+  --cart-icon: #000000;
+  --search-bar-b-backgroung-color: #ffffff;
+}
+
+[data-theme="dark"] {
+  --body-background-image: url('/image/image .jpg');
+  --text-textfiled: #ffffff;
+  --text-textfiled2: #ffffff;
+  --link-menu-links_a: #ffffff;
+  --text-textfiledM: #ffffff;
+  --cart-icon: #ffffff;
+  --search-bar-b-backgroung-color: #b3b2b2;
+}
+   
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
